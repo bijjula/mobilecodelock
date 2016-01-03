@@ -30,12 +30,12 @@ Example - 1,2,2,3 (edges are {(1,2),(2,2), (2,3)} (2,2) is reflexive edge. I am 
 
 #Alternative Solutions - 
 1. Usually Interview questions are to look at linked list concept. Also, if we need to validate the number as we input - so this is one solution based on linked list approach - 
-  step 1.1. Accept User-Input, and create NEW_NODE with value keyed-in.
-  step 1.2 Check if the keyed-in value exists for any existing node in the linked list.
-  step 1.3 if No, add NEW_NODE.
-  step 1.4 if yes, check if CURRENT-LAST-NODE value is same in either BEFORE or AFTER node of this identified position.
-  step 1.5  ---------- if yes increment EDGE-COUNT by 1 and repeat step 1.4
-  step 1.6  ---------- if EDGE-COUNT is more than 2, throw error as 'unacceptable pattern' and exit.
-  step 1.7 if EDGE-COUNT is <2, Add NEW_NODE.
-  step 1.8 end.
+  - step 1.1. Accept User-Input, and create NEW_NODE with value keyed-in.
+  - step 1.2 Check if the keyed-in value exists for any existing node in the linked list.
+  - step 1.3 if No, add NEW_NODE.
+  - step 1.4 if yes, check if CURRENT-LAST-NODE value is same in either BEFORE or AFTER node of this identified position.
+  - step 1.5  ---------- if yes increment EDGE-COUNT by 1 and repeat step 1.4
+  - step 1.6  ---------- if EDGE-COUNT is more than 2, throw error as 'unacceptable pattern' and exit.
+  - step 1.7 if EDGE-COUNT is <2, Add NEW_NODE.
+  - step 1.8 end.
 
