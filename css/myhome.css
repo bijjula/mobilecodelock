@@ -1,0 +1,112 @@
+div.mainmenu h1{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 13px;
+	color:orange;
+	font-family: Rockwell, serif;
+	font-size: 2.875em;
+	font-weight: 500;
+}
+ul.listcategory li{
+	padding: 7px 12px;
+	min-height: 35px;
+	width: auto;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	cursor: pointer;
+}
+ul.listcategory li:hover{
+	border-radius: 16px;
+	border:0px solid orange;
+	background-color: orange;
+	color: white;
+}
+
+ul.listitemvariety li{
+	border: 1px solid #f5f5f5;
+	width: 230px;
+	min-height: 50px;
+	height: 250px;
+	text-align: center;
+	padding: 15px;
+	margin-right: 22px;
+	margin-bottom: 17px;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(148, 118, 148, 0.87);
+	-moz-box-shadow:    0px 0px 13px 0px rgba(148, 118, 148, 0.87);
+	box-shadow:         0px 0px 13px 0px rgba(148, 118, 148, 0.87);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ul.listitemvariety li:hover{
+	transition: background-color 1s ease-in-out;
+  	
+	background-color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ul.listitemvariety li h4{
+	min-height: 36px;
+	font-family: "Ubuntu", sans-serif;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ul.listitemvariety li:hover h4{
+	color:white;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	padding-top: 40px;
+}
+ul.listitemvariety li:hover img#images{
+	display:none;
+	opacity:1;
+	background-color: rgba(255, 165, 0, 1);
+	background: rgba(255, 165, 0, 1);
+	color: rgba(255, 165, 0, 1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ul.listitemvariety li a#addtocart{
+	border:2px solid white;
+	border-radius:18px;
+	padding: 4px 10px; 
+	width: 96px;
+	color: white;
+	margin-left:50px;
+	cursor: pointer;
+	text-align: center;
+	display:none;
+}
+ul.listitemvariety li:hover a#addtocart{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	margin-top: 50px;
+	display: block;
+}
+ul.listitemvariety a#addtocart{
+	display:none;
+}
+ul.listitemvariety a#addtocart:hover{
+	background-color: white;
+	color:black;
+}
