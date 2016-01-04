@@ -28,6 +28,8 @@ Example - For "1", usual edges are {(1,2),(1,4),(1,5)} but i consider these as i
 2. Should we allow, same number selection in consecutive positions. REFLEXIVE EDGE.
 Example - 1,2,2,3 (edges are {(1,2),(2,2), (2,3)} (2,2) is reflexive edge. I am considering this as allowed, because it is normal pattern in mobile lock screens.
 
+3. Maximum length of the Lock key is 8 (minimum is 4 as given in problem statement).
+
 ### Alternative Solutions - 
 1. Usually Interview questions are to look at linked list concept. Also, if we need to validate the number as we input - so this is one solution based on linked list approach - 
   - step 1.1. Accept User-Input, and create NEW_NODE with value keyed-in.
