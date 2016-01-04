@@ -17,18 +17,18 @@ Then connection between 1 & 2 is an edge ({5,9} is also an edge … and so on)
 Only one edge re-use implies that in your pattern you can use only one connection twice e.g. 1,2,4,,5,2,1 is an acceptable pattern (connection between 1 & 2 has been used twice), however, 1,2,4,5,2,1,4,2 isn’t as connections between 1,2 & 4,2 have been used twice
 
 ---------------------------------
-#ASK
+### ASK
 
 The ask was to observe the end-user edge formation (on selecting the numbers) and validate for edge not repeated more than twice in the selection.
 
-#Assumptions - 
+### Assumptions - 
 1. Edge is between two consecutive points. But since in number lock we can type any key, i consider all keys as posssible end-points to make an edge. 
 Example - For "1", usual edges are {(1,2),(1,4),(1,5)} but i consider these as inclusive edges {(1,3), (1,6), (1,9), (1,8) , (1,7)}
 
 2. Should we allow, same number selection in consecutive positions. REFLEXIVE EDGE.
 Example - 1,2,2,3 (edges are {(1,2),(2,2), (2,3)} (2,2) is reflexive edge. I am considering this as allowed, because it is normal pattern in mobile lock screens.
 
-#Alternative Solutions - 
+### Alternative Solutions - 
 1. Usually Interview questions are to look at linked list concept. Also, if we need to validate the number as we input - so this is one solution based on linked list approach - 
   - step 1.1. Accept User-Input, and create NEW_NODE with value keyed-in.
   - step 1.2 Check if the keyed-in value exists for any existing node in the linked list.
